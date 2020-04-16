@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<title>Házi másoló</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+    </style>  
+</head>
+  <body>
+<div class="sticky">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"> <h2> Házi feltöltő program </h2>
+  made by Papp Levente</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">RTFM<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href=".\full.zip">Letöltés</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href=".\másoló.txt" target="_blank">Forrás kód</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<p style="text-align: center;">A programom <span style="text-decoration: underline;"><strong>GUI-val rendelkezik,</strong></span> minden egyértelmű.<br />Telepítés:<br />1. Töltsd le a full.zip-et</p>
+<p style="text-align: center;">2. Csomagold ki</p>
+<p style="text-align: center;">3. Telepítsd a winscp-t quick mode-ban (ne adj meg neki külön elérési utat)</p>
+<p style="text-align: center;">4. Futtasd a benne másoló.exe-t<br />(megjelenik egy fekete console, ne ijedj meg az úgy van jól,<br />ott fogod látni, hogy van e error a program futása közben, mögötte lesz a GUI, vagyis a használandó felület
+A program interaktívan közli veled ha hiányzik adat a futása közben, de a console mögé rakja a pop-up ablakot. Ha windows error hangot hallasz akkor nézz a console mögé hátha a program küldte.)</p>
+<p style="text-align: center;">5. Ha esetleg a program nem működne és nem ír ki hibaüzenetet és semmi, akkor windows keresőbe írd be,<br />hogy powershell, majd nyisd meg rendszergazdaként, <br />majd másold bele a következő kódotdot "-ek nélkül "set-executionpolicy remotesigned", majd nyomd meg az "a" betüt.</p>
+<p style="text-align: center;">Első indításkor bal oldalt kell beírnod az adataidat, majd utána csak a hetet kell kitöltened.</p>
+<p style="text-align: center;">Működése:</p>
+<p style="text-align: center;">1. Betölti a GUI-t és vár az inputra</p>
+<p style="text-align: center;">2. A törzsmappába kell tenned a code::blocks-al a házi projectjeidet a megfelelő névvel ellátva</p>
+<p style="text-align: center;">3. Ezekból a mappákból a program kiveszi a main.cpp-ket</p>
+<p style="text-align: center;">4. Átnevezi a mappa nevére</p>
+<p style="text-align: center;">5. Feltölti a hét mappájába a cortex szerverén</p>
+<p style="text-align: center;">6. Majd vár a következő inputra</p>
+<p style="text-align: center;">7. Kilépés gombbal bezárja magát</p>
+<p style="text-align: center;"><br />Ha bármi kérdésed lenne írj egy <a href=mailto:"papp.levente.laszlo@users.itk.ppke.hu">e-mailt</a> vagy keress meg az itk-n szünetekben. :D</p>
+<p style="text-align: center;"><br />A program kódja open-source, nyugodtan átírhatod ahogy szeretnéd</p>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+  </body>
+</html>
