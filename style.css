@@ -39,7 +39,7 @@ select {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   color: #2C3632;
   font-family: 'Righteous', cursive;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   overflow: hidden;
   padding-top: 2px;
@@ -95,18 +95,52 @@ span {
 @media(min-width: 47em) {
 
   body {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .intro, main, nav {
     width: 60%;
   }
+
+  select {
+    font-size: 1.1em;
+  }
+
+  header {
+    margin-bottom: 2em;
+  }
 }
 
 @media(min-width: 64.125em) {
 
+  body {
+    font-size: 1.2em;
+  }
+
+  .intro, main, nav {
+    width: 50%;
+  }
+
+  header {
+    margin-bottom: 3em;
+  }
+
+
 }
 
 @media(min-width: 94em) {
+
+  body {
+    font-size: 1.3em;
+  }
+
+  .intro, main, nav {
+    width: 40%;
+  }
+
+  header {
+    margin-bottom: 4em;
+  }
+
 
 }
