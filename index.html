@@ -1,50 +1,53 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>MineOS_scripts documentation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MineOS_scripts documentation</title>
 </head>
 <body onload="alma()">
-  <header>
-    <h1>Welcome to my documentation site!</h1>
-  </header>
-  <nav>
-    <select name="menu" id="menu" onchange="alma()">
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Main.txt">A few words about my scripts:</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Auto_backup.txt">Auto_backup</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Installer-updater.txt">Installer-updater</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Mc_command_handler.txt">Mc_command_handler</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Memory_controller.txt">Memory_controller</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Memory_out.txt">Memory_out</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Scheduled_restart_on_change.txt">Scheduled_restart_on_change</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Security.txt">Security</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Server_prop_changer.txt">Server_prop_changer</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Start.txt">Start</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Starts.txt">Starts</option>
-      <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Status_checker.txt">Status_checker</option>
-    </select>
+    <header>
+        <h1>Welcome to my documentation site!</h1>
+    </header>
+<section class="intro">
+    <h2>MineOS_scripts</h2>
+    <p style="white-Space:pre-wrap">
+This website is the documentation for my automation scripts made for Hexparrot's MineOS which is node based software for minecraft server handling on linux. You can find my scripts on <a href="https://www.github.com/aklakina/MineOS_scripts">my github</a>.
+You can select a script with clicking on the header below and then it displays it's documentation.
+    </p>
+</section>
+
+    <hr>
+
+    <nav>
+        <select name="menu" id="menu" onchange="alma()">
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Main.txt">A few words about my scripts:</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Auto_backup.txt">Auto_backup</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Installer-updater.txt">Installer-updater</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Mc_command_handler.txt">Mc_command_handler</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Memory_controller.txt">Memory_controller</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Memory_out.txt">Memory_out</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Scheduled_restart_on_change.txt">Scheduled_restart_on_change</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Security.txt">Security</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Server_prop_changer.txt">Server_prop_changer</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Start.txt">Start</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Starts.txt">Starts</option>
+            <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Status_checker.txt">Status_checker</option>
+        </select>
+    </nav>
+    <main>
+        <p id="text" style="white-Space:pre-wrap" > </p>
+    </main>
+
     <script src="jquery-3.5.0.min.js"></script>
     <script>
-    function alma() {
-      $('#text').load(document.getElementById('menu').value);
-    }
+        function alma() {
+            $('#text').load(document.getElementById('menu').value);
+        }
     </script>
 
-  </nav>
-
-  <hr>
-
-  <main>
-    <h2>MineOS_scripts</h2>
-    <p style="white-Space:pre-wrap">This website is the documentation for my automation scripts made for Hexparrot's MineOS which is node based software for minecraft server handling on linux. You can find my scripts on <a href="https://www.github.com/aklakina/MineOS_scripts">my github</a>.
-You can select a script with clicking on the header below and then it displays it's documentation.</p>
-
-    <h2>ide kéne a kiválasztós box</h2>
-    <p id="text" style="white-Space:pre-wrap"> </p>
-  </main>
 </body>
 
 </html>
