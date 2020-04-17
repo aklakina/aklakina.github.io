@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css">
   <title>Levi site</title>
 </head>
-
 <body>
   <header>
     <h1>Levivok osztcső</h1>
@@ -27,8 +26,13 @@
       <option value="documents/Starts.txt">Starts</option>
       <option value="documents/Status_checker.txt">Status_checker</option>
     </select>
-
-    <button onclick="kiir">Select</button>
+    <script src="jquery-3.5.0.min.js"></script>
+    <script>
+    function alma() {
+      $('#text').load(document.getElementById('menu').value);
+    }
+    </script>
+    <button onclick="alma()">Select</button>
 
   </nav>
 
@@ -40,11 +44,6 @@
 
     <h2>ide kéne a kiválasztós box</h2>
     <p id="text"> </p>
-      <script type="text/javascript">
-      function kiir() {
-        $("#text").load("document.getElementById('menu').value");
-      }
-      </script>
   </main>
 </body>
 
