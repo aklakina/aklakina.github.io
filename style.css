@@ -19,7 +19,7 @@ header {
 }
 
 nav {
-  text-align: center;
+  text-align: left;
   padding: 2.5em 0;
 }
 
@@ -48,6 +48,11 @@ select {
   white-space: nowrap;
 }
 
+option:checked {
+  background-color: #2C3632;
+  color: #F0F1F4;
+}
+
 hr {
   background-color: #2C3632;
   padding: 2px;
@@ -58,7 +63,7 @@ hr {
   border:none;
 }
 
-.intro, main {
+.intro, main, nav {
 color: #2C3632;
 padding: 1em;
 width: 90%;
@@ -87,7 +92,7 @@ span {
     font-size: 1.2em;
   }
 
-  .intro, main {
+  .intro, main, nav {
     width: 60%;
   }
 }
