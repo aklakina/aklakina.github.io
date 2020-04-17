@@ -28,7 +28,7 @@
       <option value="./documents/Status_checker.txt">Status_checker</option>
     </select>
 
-    <!-- <button>Select</button> Kell ez ide???? -->
+    <button onclick="document.getElementById('1').innerHTML=readTextFile(document.getElementById('menu').innerHTML);">Select</button>
 
   </nav>
 
@@ -58,7 +58,6 @@
         }
         rawFile.send(null);
       }
-      document.getElementById("1").innerHTML="readTextFile(document.getElementById('menu').innerHTML);"
       </script>
   </main>
 </body>
