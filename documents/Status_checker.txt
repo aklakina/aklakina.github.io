@@ -1,2 +1,2 @@
 This script is controlling mc_command handler so it won't overflow your server with background jobs and infinite tailing processes.
-***Trust me it is better to keep this thing crontabbed...***
+<span class="bold">Trust me it is better to keep this thing crontabbed...</span>

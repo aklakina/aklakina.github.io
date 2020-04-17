@@ -12,4 +12,4 @@ If you try to run a linux-side command as a non-linux user in mc then it will ju
 
 Of course you can't give commands which waits for user interactions 'cause it simply will bug out and you will have to kill and restart the tailing process.
 
-Note: If you are expert enough then you could actually write a whole linux script using minecraft chat. (**try it on your own responsibility**)
+Note: If you are expert enough then you could actually write a whole linux script using minecraft chat. (<span class="bold">try it on your own responsibility</span>)
