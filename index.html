@@ -28,7 +28,7 @@
       <option value="documents/Status_checker.txt">Status_checker</option>
     </select>
 
-    <button onclick="document.getElementById('1').innerHTML='readTextFile(document.getElementById('menu').innerHTML);'">Select</button>
+    <button onclick="kiir()">Select</button>
 
   </nav>
 
@@ -41,6 +41,9 @@
     <h2>ide kéne a kiválasztós box</h2>
     <p id=1>Hi!</p>
       <script>
+      function kiir() {
+        document.getElementById('1').innerHTML=readTextFile(document.getElementById('menu').innerHTML);
+      }
       function readTextFile(file)
       {
         var rawFile = new XMLHttpRequest();
