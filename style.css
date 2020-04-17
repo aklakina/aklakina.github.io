@@ -70,6 +70,11 @@ width: 90%;
 margin: auto;
 }
 
+a {
+  color: #030303;
+  font-weight: bold;
+}
+
 h1, h2 {
   font-family: 'Righteous', cursive;}
 
@@ -84,6 +89,7 @@ p {
 
 span {
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 @media(min-width: 47em) {
