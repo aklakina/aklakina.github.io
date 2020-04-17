@@ -41,24 +41,24 @@
     <h2>ide kéne a kiválasztós box</h2>
     <p id=1>Hi!</p>
       <script>
-            document.getElementByID("1").innerHTML=readTextFile(document.getElementById("menu").innerHTML);
-            function readTextFile(file)
+      function readTextFile(file)
+      {
+        var rawFile = new XMLHttpRequest();
+        rawFile.open("GET", file, false);
+        rawFile.onreadystatechange = function ()
+        {
+          if(rawFile.readyState === 4)
+          {
+            if(rawFile.status === 200 || rawFile.status == 0)
             {
-              var rawFile = new XMLHttpRequest();
-              rawFile.open("GET", file, false);
-              rawFile.onreadystatechange = function ()
-              {
-                if(rawFile.readyState === 4)
-                {
-                  if(rawFile.status === 200 || rawFile.status == 0)
-                  {
-                    var allText = rawFile.responseText;
-                    alert(allText);
-                  }
-                }
-              }
-              rawFile.send(null);
+              var allText = rawFile.responseText;
+              alert(allText);
             }
+          }
+        }
+        rawFile.send(null);
+      }
+      document.getElementByID("1").innerHTML=readTextFile(document.getElementById("menu").innerHTML);
       </script>
   </main>
 </body>
