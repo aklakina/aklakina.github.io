@@ -1,3 +1,2 @@
-Security:
 This is a script for solving the root security issue with the mc_commands_handler. In an offline-mode server this bans the root player so you can't sign in to the server with it and that way it protects your server.
 ***Believe me it would be bad if someone would sign in with root.***

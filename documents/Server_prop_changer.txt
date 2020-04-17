@@ -1,5 +1,5 @@
-Server_prop_changer:
 This is a script that automates your port distribution (randomly generates a port for each server in the range of 25500 and 25600) and after that sets your iptable config to do not drop any connection on that port. It logs everything.
+
 Child-script:
 -ports:
    This script with no argument writes out all of the servers with their assigned ports.

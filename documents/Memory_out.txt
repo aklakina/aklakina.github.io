@@ -1,3 +1,2 @@
-memory_out:
 This script writes out current memory usage by servers/given in the argument and the usage percent.
 Can be ran by any user.

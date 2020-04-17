@@ -1,10 +1,15 @@
-mc_command_handler:
 This script is used to make life "easier" in the view of server owners.
+
 This script tails the mc server log and if it catches any precise line that happens if you write in the minecraft chat with # (it could be at the end of the line too or in the middle of it) then it tries to run the text after it (the whole text after the #) as a linux command in the system as the user with a matching name as the minecraft user who wrote the command. 
+
 After that it pumps the output back to the minecraft chat.
+
 It does every command in the according linux account name and because of that you have to log in to your minecraft server with your linux account name so this could work or create a new user with the same name as your mc username. 
+
 I had to configure it that way so this script won't leave a black hole in your security system to like anyone who wants your server to their own.
+
 If you try to run a linux-side command as a non-linux user in mc then it will just drop back the text "you do not have the permission to run linux-side commands". 
+
 Of course you can't give commands which waits for user interactions 'cause it simply will bug out and you will have to kill and restart the tailing process.
 
 Note: If you are expert enough then you could actually write a whole linux script using minecraft chat. (**try it on your own responsibility**)
