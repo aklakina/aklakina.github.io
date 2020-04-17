@@ -1,0 +1,5 @@
+Updater:
+If you want to update my scripts repository then run this file.
+Child-script:
+-Installer:
+   This is the first to run script which makes everything for the user so my scripts run perfectly.

@@ -1,0 +1,7 @@
+starts:
+This script handles the data.txt for you.
+It has argument configuration where:
+-no arguments lists all the items of the data.txt
+-first argument should be a name of an already existing server (which by itself gives back if it is a part of the table or not)
+-second should be add or remove to add the server to the table or delete it from it respectively.
+Remove argument needs a confirmation which could be given by a force argument in the 4th place which should be y or Y.

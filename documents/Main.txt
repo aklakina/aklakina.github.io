@@ -1,0 +1,8 @@
+      So first of all if you decided to clone this repo then please run the installer as root. It asks for everything you need to run my scripts perfectly. <span class="bold"> Everything can be changed later on!</span> From later on you just need to run the updater if you want to update the clone.
+      The data.txt is used in the start script and the starts is a command with arguments based editor for the data.
+      mc_command_handler should be started when the server starts up (but i couldn't get it to work that way so the user needs to start it manually as root which the installer asks if you want to) and it is safe for common usage since it runs every command in the name of the actual user who sends it to the console. If that user does not exist it simply writes he don't have permission to give commands to the main server.
+      memory_out just writes out the current memory usage of the mc servers and the max and the percent of course.
+      Starts is the argument based editor for the data.txt while start is the script that uses the data from the data.txt.
+      Memory_controller is a script that prevents memory overflow (by restarting the server after a 2 minutes default countdown).
+      Auto_backup is a configurable .tar.gz maker.
+      Server_prop_changer changes the properties file of every server so the user do not have to do it manually. Configurable.

@@ -1,0 +1,7 @@
+Scheduled_restart_on_change:
+This script schedules a restart when it detects change on a have-to-restart-to-make-it-real server file.
+If you change anything in the server.properties then this script checks for the default_timer.txt for time. You can give it as hh:mm 24-hour format or seconds.
+If everybody leaves the server the script will restart it automatically.
+Child-script:
+-Timer:
+   This script starts the countdown for the restart.

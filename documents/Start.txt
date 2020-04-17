@@ -1,0 +1,4 @@
+start:
+This script reads the data.txt and checks if they are up and running and if not this scripts starts them.
+This is only a failsafe because as i observed memory_controller is not restarting them properly all the time and it rarely fails. 
+

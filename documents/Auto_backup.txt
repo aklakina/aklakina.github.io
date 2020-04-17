@@ -1,0 +1,5 @@
+Auto_backup:
+This is a script that helps you with keeping a backup about all your servers at a costume directory. You can also define how many backups you want to keep and which day interval should it be ran by the crontab.
+Child-script:
+-Backup_config:
+    This script asks for the default path and the default amount of saves for auto_backup.

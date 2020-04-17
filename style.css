@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #F0F1F4, #899593);
+  font-size: 1em;
+}
+
+header {
+  text-align: center;
+  padding: 2em 0;
+  background-color: #2C3632;
+  color: #F0F1F4;
+}
+
+nav {
+  text-align: center;
+  padding: 2.5em 0;
+}
+
+select {
+  /* TODO: make it beautiful and majestic! :D */
+}
+
+hr {
+  background-color: #2C3632;
+  padding: 2px;
+  width: 15em;
+  margin: auto;
+  margin-bottom: 3em;
+  border-radius: 50%;
+  border:none;
+}
+
+main {
+color: #2C3632;
+padding: 1em;
+width: 90%;
+margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Righteous', cursive;}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  font-weight: bold;
+}
+
+@media(min-width: 47em) {
+  
+  body {
+    font-size: 1.2em;
+  }
+  
+  main {
+    width: 60%;
+  }
+}
+
+@media(min-width: 64.125em) {
+
+}
+
+@media(min-width: 94em) {
+
+}
