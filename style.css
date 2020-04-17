@@ -61,11 +61,11 @@ span {
 }
 
 @media(min-width: 47em) {
-  
+
   body {
     font-size: 1.2em;
   }
-  
+
   main {
     width: 60%;
   }

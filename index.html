@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Levi site</title>
+  <title>MineOS_scripts documentation</title>
 </head>
-<body>
+<body onload="alma()">
   <header>
-    <h1>Levivok osztcső</h1>
+    <h1>Welcome to my documentation site!</h1>
   </header>
   <nav>
-    <select name="menu" id="menu">
+    <select name="menu" id="menu" onchange="alma()">
       <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Main.txt">A few words about my scripts:</option>
       <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Auto_backup.txt">Auto_backup</option>
       <option value="https://raw.githubusercontent.com/aklakina/aklakina.github.io/master/documents/Installer-updater.txt">Installer-updater</option>
@@ -32,7 +32,6 @@
       $('#text').load(document.getElementById('menu').value);
     }
     </script>
-    <button onclick="alma()">Select</button>
 
   </nav>
 
@@ -40,7 +39,8 @@
 
   <main>
     <h2>MineOS_scripts</h2>
-    <p>This website is the documentation for my automation scripts made for Hexparrot's MineOS which is node based software for minecraft server handling on linux. You can find my scripts on <a href="https://www.github.com/aklakina/MineOS_scripts">my github</a>. You can select a script with clicking on the header below and then it displays it's documentation.</p>
+    <p style="white-Space:pre-wrap">This website is the documentation for my automation scripts made for Hexparrot's MineOS which is node based software for minecraft server handling on linux. You can find my scripts on <a href="https://www.github.com/aklakina/MineOS_scripts">my github</a>.
+You can select a script with clicking on the header below and then it displays it's documentation.</p>
 
     <h2>ide kéne a kiválasztós box</h2>
     <p id="text" style="white-Space:pre-wrap"> </p>
