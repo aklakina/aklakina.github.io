@@ -1,0 +1,7 @@
+This script takes advantage of creating a server from an archive.
+It takes 2 arguments by default first one is the download link and second one is the action with it. The arguments are case sensitive.
+The list of possible second arguments:
+1.	-c This sets the script so it installs the downloaded archive and creates a server from it. This needs 2 additional arguments where the first one should be the name of the new server and the second one should be your username. The username can not be root.
+2.	-d This sets the script so it only downloads the archive. This does not need any additional arguments.
+
+Please be sure that the download link is correct and it points to the archive you want to download. So far it can only handle .zip extensions but I will add more if needed.
